@@ -1,9 +1,10 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
-const authControllersign = require('./Controller/authController.signup');
-const authControllerlogin = require('./Controller/authController.login');
-const authControllerShaykh = require('./Controller/authController.addShaykh');
+const authControllersign = require('./src/Controller/authController.signup');
+const authControllerlogin = require('./src/Controller/authController.login');
+const authControllerShaykh = require('./src/Controller/authController.addShaykh');
+
 dotenv.config();
 
 const app = express();
